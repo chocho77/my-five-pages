@@ -7,7 +7,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <h2>Профил на потребител #{{ id() }}</h2>
+    <h2>Профил на потребител #{{ id }}</h2>
     <p>Тук можеш да четеш от ActivatedRoute или директно от input :id</p>
 
     <a routerLink="/home">Начало</a>
